@@ -1,10 +1,19 @@
 ---
-layout: default
+layout: page
 title: "Home"
+description: "Welcome to my personal website, exploring AI research and more."
 ---
 
+<!-- About Section -->
+<div class="intro"></div>
+  <h1>Hi, I'm Hugo!</h1>
+  <p>I'm an AI researcher who's had the privilege of working in diverse fields and companies. Interested in learning more about my journey and projects?</p>
+  <a href="/about/" class="button">Learn More About Me</a>
+</div>
+
+<!-- Blog Section -->
 {% if site.show_excerpts %}
   {% include home.html %}
 {% else %}
-  {% include archive.html title="Posts" %}
+  {% include archive.html title="Latest Posts" %}
 {% endif %}

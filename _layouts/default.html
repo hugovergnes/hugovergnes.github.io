@@ -41,4 +41,15 @@
 </footer>
 {% endif %}
 
+<script>
+  function downloadFile(filePath) {
+    const link = document.createElement('a');
+    link.href = filePath;
+    link.download = filePath.split('/').pop(); // Suggests the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+</script>
+
 </html>
