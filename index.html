@@ -5,15 +5,47 @@ description: "Welcome to my personal website, exploring AI research and more."
 ---
 
 <!-- About Section -->
-<div class="intro"></div>
-  <h1>Hi, I'm Hugo!</h1>
-  <p>I'm an AI researcher who's had the privilege of working in diverse fields and companies. Interested in learning more about my journey and projects?</p>
-  <a href="/about/" class="button">Learn More About Me</a>
-</div>
+<!-- <section id="intro">
+  <div class="intro-content">
+      <h1 class="intro-name">>Hi, I'm Hugo!</h1>
+      <p class="intro-tagline">I'm an AI researcher who's had the privilege of working in diverse fields and companies. Interested in learning more about my journey and projects?</p>
+  </div>
+</section> -->
 
 <!-- Blog Section -->
-{% if site.show_excerpts %}
+<!-- {% if site.show_excerpts %}
   {% include home.html %}
 {% else %}
   {% include archive.html title="Latest Posts" %}
-{% endif %}
+{% endif %} -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Site Title</title>
+    <link rel="stylesheet" href="{{ '/assets/css/index.css' | relative_url }}">
+</head>
+<body>
+   <!-- Intro Section -->
+   <section id="intro">
+       <div class="intro-content">
+           <h1 class="intro-name">Hi, I'm Hugo!</h1>
+           <p class="intro-tagline">I'm an AI researcher who's had the privilege of working in diverse fields and companies. Interested in learning more about my journey and projects?</p>
+       </div>
+       <div class="moving-element"></div> <!-- Moving animation -->
+   </section>
+
+   <!-- Blog Section -->
+   <section id="blog">
+    <h2>My work & Research</h2>
+    {% if site.show_excerpts %}
+      {% include home.html %}
+    {% else %}
+      {% include archive.html title="Latest Posts" %}
+    {% endif %}
+</section>
+
+</body>
+</html>

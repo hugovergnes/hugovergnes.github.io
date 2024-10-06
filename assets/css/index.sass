@@ -26,3 +26,47 @@ body > footer
   box-shadow: 0 0 .6em rgba($dark, 0.04) inset
   border-top: 1px solid reduce(14)
   opacity: .9
+
+#intro
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 100vh
+  background-color: #f4f4f4
+  position: relative
+  padding: 0 20px /* Adds horizontal padding to the entire section */
+
+.intro-content
+  max-width: 1200px /* Limits the width of the text */
+  padding: 20px /* Adds inner padding to the text container */
+  text-align: center /* Centers the text content */
+
+.intro-name
+  font-size: 5rem
+  font-weight: bold
+  color: #333
+  margin: 0
+
+.intro-tagline
+  font-size: 1.5rem
+  color: #666
+  margin-top: 10px
+
+#blog
+  padding-top: 50px
+
+.moving-element
+  position: absolute
+  bottom: 10px
+  left: 50%
+  width: 50px
+  height: 50px
+  background-color: #333
+  border-radius: 50%
+  animation: moveUpDown 3s ease-in-out infinite
+
+@keyframes moveUpDown
+  0%, 100%
+    transform: translateY(0)
+  50%
+    transform: translateY(-20px)
