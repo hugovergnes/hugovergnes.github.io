@@ -94,3 +94,27 @@ pre
   border-radius: 2px
   margin: 0 .1em
   padding: .2em .4em
+
+// Styling for the Resume Button Box
+.resume-button
+  display: flex
+  justify-content: center // Centers the button
+  margin: 40px 0 // Space above and below the button
+  padding: 20px // Extra padding around the button for better spacing
+  border: 1px solid #007bff // Add border for emphasis
+  border-radius: 8px // Rounded corners for the box
+  background-color: #f8f9fa // Light background for contrast
+  transition: box-shadow 0.3s // Transition for box-shadow
+
+  a
+    padding: 10px 20px // Add padding to the button
+    background-color: #007bff // Blue background
+    color: white // White text color
+    text-decoration: none // Remove underline
+    border-radius: 5px // Rounded corners
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) // Add shadow for depth
+    transition: background-color 0.3s, transform 0.3s // Smooth background color and transform transition
+
+    &:hover
+      background-color: #0056b3 // Darker blue on hover
+      transform: scale(1.05) // Slightly increase size on hover
