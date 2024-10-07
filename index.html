@@ -1,23 +1,8 @@
 ---
 layout: page
 title: "Home"
-description: "Welcome to my personal website, exploring AI research and more."
+description: "Welcome to Hugo's website, exploring AI research and more."
 ---
-
-<!-- About Section -->
-<!-- <section id="intro">
-  <div class="intro-content">
-      <h1 class="intro-name">>Hi, I'm Hugo!</h1>
-      <p class="intro-tagline">I'm an AI researcher who's had the privilege of working in diverse fields and companies. Interested in learning more about my journey and projects?</p>
-  </div>
-</section> -->
-
-<!-- Blog Section -->
-<!-- {% if site.show_excerpts %}
-  {% include home.html %}
-{% else %}
-  {% include archive.html title="Latest Posts" %}
-{% endif %} -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -28,18 +13,18 @@ description: "Welcome to my personal website, exploring AI research and more."
     <link rel="stylesheet" href="{{ '/assets/css/index.css' | relative_url }}">
 </head>
 <body>
-   <!-- Intro Section -->
    <section id="intro">
        <div class="intro-content">
            <h1 class="intro-name">Hi, I'm Hugo!</h1>
            <p class="intro-tagline">I'm an AI researcher who's had the privilege of working in diverse fields and companies. Interested in learning more about my journey and projects?</p>
        </div>
-       <div class="moving-element"></div> <!-- Moving animation -->
+       <div class="moving-element"></div>
    </section>
 
-   <!-- Blog Section -->
+
    <section id="blog">
     <h2>My work & Research</h2>
+    <hr class="section-divider">
     {% if site.show_excerpts %}
       {% include home.html %}
     {% else %}

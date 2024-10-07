@@ -9,14 +9,13 @@ permalink: "/about/"
 
 
 Hi, I’m Hugo, a Research Scientist based in San Mateo, California.
-With over 4 years of experience, I specialize in backend development and AI, currently working at the forefront of autonomous cancer screening technology. My passion lies in using artificial intelligence, particularly in designing innovative solutions that have real-world impact. Whether it’s working on cutting-edge AI models or contributing to the next generation of healthcare technologies, I thrive in dynamic, fast-paced environments where technology meets human needs.
+With over 3 years of experience, I specialize in backend development and AI, currently working at the forefront of autonomous cancer screening technology. My passion lies in using artificial intelligence, particularly in designing innovative solutions that have real-world impact. Whether it’s working on cutting-edge AI models or contributing to the next generation of healthcare technologies, I thrive in dynamic, fast-paced environments where technology meets human needs.
 
-Feel free to tweak it based on your personal style! Let me know if you’d like further customization or if you’d like me to add more details.
 
 ## Professional Background
 ---
 
-As a **Research Scientist** based in San Mateo, California, I bring over **4 years of experience** specializing in **backend development** and **artificial intelligence (AI)**. Currently, I am actively involved in pioneering **autonomous cancer screening technology**, where my focus is on developing innovative AI solutions that directly impact healthcare.
+As a **Research Scientist** based in San Mateo, California, I bring over **3 years of experience** specializing in **backend development** and **artificial intelligence (AI)**. Currently, I am actively involved in pioneering **autonomous cancer screening technology**, where my focus is on developing innovative AI solutions that directly impact healthcare.
 
 My journey in AI began with a strong foundation in **Applied Mathematics** and **Artificial Intelligence** during my studies at **École Polytechnique**. This was further solidified through my **Master’s in Statistics** at **Stanford University**, where I applied theoretical knowledge to real-world problems in the healthcare sector.
 

@@ -5,7 +5,7 @@ layout: page
 permalink: /contacts/
 ---
 
-## Contact Me
+## Et Voilà!
 ---
 
 I'm usually the most responsive via email at [hugo.vergnes@gmail.com](mailto:hugo.vergnes@gmail.com).  
