@@ -24,7 +24,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Mail, icon: envelope, url: "mailto:hugo.vergnes@gmail.com"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/hugo-vergnes-03a016162/"}
   - {title: Github, icon: github, url: "https://github.com/hugovergnes"}
-  - {title: Kaggle, icon: github, url: "https://github.com/hugovergnes"}
+  - {title: Kaggle, icon: kaggle, url: "https://www.kaggle.com/hugovergnesx"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
