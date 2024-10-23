@@ -82,6 +82,7 @@ I completed my **Master’s in Statistics** at **Stanford University**, followin
 - Version Control: Proficient in using Git for source code management and collaboration.
 - Cloud Platforms: High performance computer cluster, docker containers.
 - Operationg systems: Linux, Mac.
+- Languages: English 🇺🇸 and French 🇫🇷.
 - Problem Solving: Strong analytical skills with a focus on finding efficient solutions to complex problems.
 - Collaboration: Effective communicator and team player with experience working in cross-functional teams.
 

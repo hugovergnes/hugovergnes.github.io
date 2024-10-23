@@ -11,6 +11,8 @@ permalink: /contacts/
 I'm usually the most responsive via email at [hugo.vergnes@gmail.com](mailto:hugo.vergnes@gmail.com).  
 Otherwise, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/hugo-vergnes-03a016162/)
 
+Looking forward to hear from you 🚀🚀🚀
+
 ## Download My Resume
 ---
 
