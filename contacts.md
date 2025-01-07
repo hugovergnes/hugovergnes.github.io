@@ -5,15 +5,14 @@ layout: page
 permalink: /contacts/
 ---
 
-## Et Voilà!
-
-I'm usually the most responsive via email or to connect with me on one of those plateforms.
+Feel free to reach out:
 
 - [hugo.vergnes@gmail.com](mailto:hugo.vergnes@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/hugo-vergnes-03a016162/)
 - [Github](https://github.com/hugovergnes)
 
 Looking forward to hear from you 🚀🚀🚀
+
 
 
 ## Grab my resume on the way out ?

@@ -4,9 +4,9 @@ layout: page
 permalink: "/about/"
 ---
 
-## Introduction
----
-
+<div style="text-align: center;">
+  <img src="/assets/images/RSNA_presentation_2024.jpg" alt="Description" style="width: 400px; height: auto;">
+</div>
 
 I'm a Research Scientist based in the silicon valley in California.
 With over 4 years of experience, I specialize in backend development and AI, currently working at the forefront of autonomous cancer screening technology. My passion lies in using artificial intelligence, particularly in designing innovative solutions that have real-world impact. Whether it’s working on cutting-edge AI models or contributing to the next generation of healthcare technologies, I thrive in dynamic, fast-paced environments where technology meets human needs.
@@ -18,8 +18,12 @@ My journey in AI began with a strong foundation in **Applied Mathematics** and *
 ---
 
 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
-  <h3 style="margin: 0;">Whiterabbit.ai</h3>
-  <img src="/assets/images/whiterabbit.jpg" alt="Whiterabbit.ai" style="width: 300px; height: auto;">
+  <div>
+    <h3 style="margin: 0;">Whiterabbit.ai</h3>
+    <p style="margin: 0; font-style: italic;">Research Scientist - AI</p>
+    <p style="margin: 0; color: gray;">Sep 2021 - Current</p>
+  </div>
+  <img src="/assets/images/whiterabbit.jpg" alt="Whiterabbit.ai" style="width: 200px; height: auto;">
 </div>
 
 I joined Whiterabbit.ai right after my studies, after a summer internship. In which I worked extensively on WRClear a software as a medical device. WRClear is intended for the autonomous identification of non-suspicious exams, while offering assistive outputs to help interpreting physicians detect cancer in the cases for which the presence of breast cancer cannot be ruled-out.
@@ -29,8 +33,12 @@ WRClear is the first automous medical device of a it's kind, this was a major li
 WRClear allows a new paradigm in screening mammography. WRClear is a software as a medical device (SaMD) that integrates artificial intelligence into the mammography screening workflow. Through a combination of assistive and autonomous capabilities, WRClear is designed to automate routine tasks and improve screening accuracy, and may permit radiologists to spend more time on the cases that truly require their attention and expertise. WRClear is designed to improve diagnostic quality by reducing both false negatives and false positives, such as non-cancer callbacks and benign biopsies. By automating a significant portion of non-suspicious exams, WRClear alleviates the workload for radiologists.
 
 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
-  <h3 style="margin: 0;">McKinsey & Company</h3>
-  <img src="/assets/images/mckinsey.png" alt="McKinsey & Company" style="width: 300px; height: auto;">
+  <div>
+    <h3 style="margin: 0;">McKinsey & Company</h3>
+    <p style="margin: 0; font-style: italic;">Business Summer Analyst - Data Science</p>
+    <p style="margin: 0; color: gray;">Summer 2019</p>
+  </div>
+  <img src="/assets/images/mckinsey.png" alt="École Polytechnique" style="width: 200px; height: auto;">
 </div>
 
 I've had the priviledge to work at many companies, but one of which stood out to me was McKinsey. I joined as a Summer business analyst in Data Science. In the middle of my master at Polytechnique, it helped find my profesional path.
@@ -73,18 +81,18 @@ I completed my **Master’s in Statistics** at **Stanford University**, followin
 ## Skills, Expertise & Technologies.
 ---
 
-- Programming Languages: **Python** (Fluent), R.
+- Programming Languages: Python (Fluent), R.
 - Machine Learning & AI: Pytorch, TensorFlow.
+- AI utilities: Bash scripting. GPU profiling, monitoring and benchmarking. Processes handling etc.
+- Mathematics: Strong general knowledge in all domain of mathematics.
 - Computer Vision: Vision Transformers (ViT, PvT, Hiera), CNNS (ConvNext, InceptionNext).
 - Graph Convolutional Networks (GCNs).
 - Data Visualization: Bokeh, matplotlib.
 - Statistical Analysis: Hypothesis testing, regression analysis, and predictive modeling.
-- Version Control: Proficient in using Git for source code management and collaboration.
+- Version Control: Proficient in using git for source code management and collaboration.
 - Cloud Platforms: High performance computer cluster, docker containers.
-- Operationg systems: Linux, Mac.
+- Operationg systems: Linux, Mac, Windows.
 - Languages: English 🇺🇸 and French 🇫🇷.
-- Problem Solving: Strong analytical skills with a focus on finding efficient solutions to complex problems.
-- Collaboration: Effective communicator and team player with experience working in cross-functional teams.
 
 
 ## Personal Interests
