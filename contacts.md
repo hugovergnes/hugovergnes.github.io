@@ -14,7 +14,6 @@ Feel free to reach out:
 Looking forward to hear from you 🚀🚀🚀
 
 
-
 ## Grab my resume on the way out ?
 
 I am excited to share my professional journey with you. Feel free to download my resume using the box below.
