@@ -5,3 +5,6 @@
 Gemfile.lock
 _site
 *.gem
+
+# ruby stuif
+vendor/bundle/

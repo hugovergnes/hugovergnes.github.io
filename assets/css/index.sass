@@ -37,15 +37,19 @@ body > footer
   padding: 0 20px /* Adds horizontal padding to the entire section */
 
 .intro-content
+  box-sizing: border-box
+  width: 100%
   max-width: 1200px /* Limits the width of the text */
   padding: 20px /* Adds inner padding to the text container */
   text-align: center /* Centers the text content */
 
 .intro-name
-  font-size: 5rem
+  font-size: clamp(2.25rem, 5vw, 4.25rem)
   font-weight: bold
+  line-height: 1.1
   color: #333
   margin: 0
+  overflow-wrap: break-word
 
 .intro-tagline
   font-size: 1.5rem
@@ -60,22 +64,6 @@ body > footer
   margin-bottom: 20px
   text-align: center
   font-weight: bold
-
-.moving-element
-  position: absolute
-  bottom: 10px
-  left: 50%
-  width: 50px
-  height: 50px
-  background-color: #333
-  border-radius: 50%
-  animation: moveUpDown 3s ease-in-out infinite
-
-@keyframes moveUpDown
-  0%, 100%
-    transform: translateY(0)
-  50%
-    transform: translateY(-100px)
 
 .section-divider
   border: none

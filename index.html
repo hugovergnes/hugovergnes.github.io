@@ -6,31 +6,34 @@ description: "Welcome to Hugo's website, exploring AI research and more."
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Site Title</title>
     <link rel="stylesheet" href="{{ '/assets/css/index.css' | relative_url }}">
 </head>
+
 <body>
-   <section id="intro">
-       <div class="intro-content">
-           <h1 class="intro-name">Hi, I'm Hugo!</h1>
-           <p class="intro-tagline">I'm an AI researcher who's had the privilege of working in diverse fields and companies. Interested in learning more about my journey and projects?</p>
-       </div>
-       <div class="moving-element"></div>
-   </section>
+    <section id="intro">
+        <div class="intro-content">
+            <h1 class="intro-name">Hi, I’m a research scientist and engineer specializing in computer vision.</h1>
+            <p class="intro-tagline">I build, train, and evaluate deep-learning systems for challenging real-world
+                problems</p>
+        </div>
+    </section>
 
 
-   <section id="blog">
-    <h2>My work & Research</h2>
-    <hr class="section-divider">
-    {% if site.show_excerpts %}
-      {% include home.html %}
-    {% else %}
-      {% include archive.html title="Latest Posts" %}
-    {% endif %}
-</section>
+    <section id="blog">
+        <h2>My work & Research</h2>
+        <hr class="section-divider">
+        {% if site.show_excerpts %}
+        {% include home.html %}
+        {% else %}
+        {% include archive.html title="Latest Posts" %}
+        {% endif %}
+    </section>
 
 </body>
+
 </html>
