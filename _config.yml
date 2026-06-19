@@ -1,6 +1,6 @@
 title: "Hugo Vergnes"
 author: "Hugo Vergnes"
-description: "Made with Github Pages, Jekyll and Contrast Theme" # "Made with <b style=\"color: #f45;\">&lt;3</b>"
+description: "Made with GitHub Pages, Jekyll and Contrast Theme" # "Made with <b style=\"color: #f45;\">&lt;3</b>"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -23,7 +23,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:hugo.vergnes@gmail.com"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/hugo-vergnes-03a016162/"}
-  - {title: Github, icon: github, url: "https://github.com/hugovergnes"}
+  - {title: GitHub, icon: github, url: "https://github.com/hugovergnes"}
   - {title: Kaggle, icon: kaggle, url: "https://www.kaggle.com/hugovergnesx"}
 
 comments:

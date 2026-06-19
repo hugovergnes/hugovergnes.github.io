@@ -8,8 +8,8 @@ permalink: "/about/"
   <img src="/assets/images/RSNA_presentation_2024.jpg" alt="Description" style="width: 400px; height: auto;">
 </div>
 
-I'm a Research Scientist based in the silicon valley in California.
-With over 4 years of experience, I specialize in backend development and AI, currently working at the forefront of autonomous cancer screening technology. My passion lies in using artificial intelligence, particularly in designing innovative solutions that have real-world impact. Whether it’s working on cutting-edge AI models or contributing to the next generation of healthcare technologies, I thrive in dynamic, fast-paced environments where technology meets human needs.
+I'm a Research Scientist based in Silicon Valley, California.
+With over 4 years of experience, I specialize in backend development and AI, currently working at the forefront of autonomous cancer screening technology. My passion lies in using artificial intelligence, particularly in designing innovative solutions that have a real-world impact. Whether it’s working on cutting-edge AI models or contributing to the next generation of healthcare technologies, I thrive in dynamic, fast-paced environments where technology meets human needs.
 
 My journey in AI began with a strong foundation in **Applied Mathematics** and **Artificial Intelligence** during my studies at **École Polytechnique**. This was further solidified through my **Master’s in Statistics** at **Stanford University**, where I applied theoretical knowledge to real-world problems in the healthcare sector.
 
@@ -26,9 +26,9 @@ My journey in AI began with a strong foundation in **Applied Mathematics** and *
   <img src="/assets/images/whiterabbit.jpg" alt="Whiterabbit.ai" style="width: 200px; height: auto;">
 </div>
 
-I joined Whiterabbit.ai right after my studies, after a summer internship. In which I worked extensively on WRClear a software as a medical device. WRClear is intended for the autonomous identification of non-suspicious exams, while offering assistive outputs to help interpreting physicians detect cancer in the cases for which the presence of breast cancer cannot be ruled-out.
+I joined Whiterabbit.ai right after my studies, following a summer internship in which I worked extensively on WRClear, a software as a medical device. WRClear is intended for the autonomous identification of non-suspicious exams while offering assistive outputs to help interpreting physicians detect cancer in cases where the presence of breast cancer cannot be ruled out.
 
-WRClear is the first automous medical device of a it's kind, this was a major lift for the research team. As part of it, I designed, trained, evaluated multiple deep neural networks (Convolutional neural Networks, Transformers, gradient boosted trees, etc.) for a wide range of tasks. Additionally, I handled the design of statistical studies to demonstrate the benefits of our device to the FDA. This effort pioneers **autonomous cancer screening technology** while simultaneously improving patient outcomes and reducing radiologists shortfall. 
+WRClear is the first autonomous medical device of its kind. This was a major lift for the research team. As part of it, I designed, trained, and evaluated multiple deep neural networks (convolutional neural networks, transformers, gradient-boosted trees, etc.) for a wide range of tasks. Additionally, I handled the design of statistical studies to demonstrate the benefits of our device to the FDA. This effort pioneers **autonomous cancer screening technology** while simultaneously improving patient outcomes and reducing the radiologist shortage.
 
 WRClear allows a new paradigm in screening mammography. WRClear is a software as a medical device (SaMD) that integrates artificial intelligence into the mammography screening workflow. Through a combination of assistive and autonomous capabilities, WRClear is designed to automate routine tasks and improve screening accuracy, and may permit radiologists to spend more time on the cases that truly require their attention and expertise. WRClear is designed to improve diagnostic quality by reducing both false negatives and false positives, such as non-cancer callbacks and benign biopsies. By automating a significant portion of non-suspicious exams, WRClear alleviates the workload for radiologists.
 
@@ -41,7 +41,7 @@ WRClear allows a new paradigm in screening mammography. WRClear is a software as
   <img src="/assets/images/mckinsey.png" alt="École Polytechnique" style="width: 200px; height: auto;">
 </div>
 
-I've had the priviledge to work at many companies, but one of which stood out to me was McKinsey. I joined as a Summer business analyst in Data Science. In the middle of my master at Polytechnique, it helped find my profesional path.
+I've had the privilege of working at several companies, but McKinsey stood out to me. I joined as a summer business analyst in Data Science. Midway through my master's at Polytechnique, the experience helped me find my professional path.
 
 
 ## Education
@@ -78,20 +78,20 @@ I completed my **Master’s in Statistics** at **Stanford University**, followin
 - **Natural Language Processing (NLP)** for question-answering systems.
 - And many more cutting-edge AI-driven initiatives.
 
-## Skills, Expertise & Technologies.
+## Skills, Expertise & Technologies
 ---
 
-- Programming Languages: Python (Fluent), R.
-- Machine Learning & AI: Pytorch, TensorFlow.
-- AI utilities: Bash scripting. GPU profiling, monitoring and benchmarking. Processes handling etc.
-- Mathematics: Strong general knowledge in all domain of mathematics.
-- Computer Vision: Vision Transformers (ViT, PvT, Hiera), CNNS (ConvNext, InceptionNext).
+- Programming Languages: Python (fluent), R.
+- Machine Learning & AI: PyTorch, TensorFlow.
+- AI utilities: Bash scripting; GPU profiling, monitoring, and benchmarking; process management.
+- Mathematics: Strong general knowledge across all domains of mathematics.
+- Computer Vision: Vision Transformers (ViT, PvT, Hiera), CNNs (ConvNeXt, InceptionNeXt).
 - Graph Convolutional Networks (GCNs).
 - Data Visualization: Bokeh, matplotlib.
 - Statistical Analysis: Hypothesis testing, regression analysis, and predictive modeling.
-- Version Control: Proficient in using git for source code management and collaboration.
-- Cloud Platforms: High performance computer cluster, docker containers.
-- Operationg systems: Linux, Mac, Windows.
+- Version Control: Proficient in using Git for source code management and collaboration.
+- Cloud Platforms: High-performance computing clusters, Docker containers.
+- Operating systems: Linux, macOS, Windows.
 - Languages: English 🇺🇸 and French 🇫🇷.
 
 
@@ -115,5 +115,5 @@ I completed my **Master’s in Statistics** at **Stanford University**, followin
 
 Do one thing and do it well.
 
-It is the motto I try to live by. In the recent development of AI I've seen more and more complexe form of intelligence emerging. And yet most of them can't seem to do anything useful. I believe that this contradiction lies in the race to AGI.
-I think the most useful tools will be the specific one (Github Copilot for example), that focus on doing one thing but do it well.
+It is the motto I try to live by. In the recent development of AI, I've seen more and more complex forms of intelligence emerging. And yet most of them can't seem to do anything useful. I believe that this contradiction lies in the race to AGI.
+I think the most useful tools will be the specific ones (GitHub Copilot, for example) that focus on doing one thing and doing it well.
