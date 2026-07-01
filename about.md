@@ -8,10 +8,7 @@ permalink: "/about/"
   <img src="/assets/images/RSNA_presentation_2024.jpg" alt="Description" style="width: 400px; height: auto;">
 </div>
 
-I'm a Research Scientist based in Silicon Valley, California.
-With over 4 years of experience, I specialize in backend development and AI, currently working at the forefront of autonomous cancer screening technology. My passion lies in using artificial intelligence, particularly in designing innovative solutions that have a real-world impact. Whether it’s working on cutting-edge AI models or contributing to the next generation of healthcare technologies, I thrive in dynamic, fast-paced environments where technology meets human needs.
-
-My journey in AI began with a strong foundation in **Applied Mathematics** and **Artificial Intelligence** during my studies at **École Polytechnique**. This was further solidified through my **Master’s in Statistics** at **Stanford University**, where I applied theoretical knowledge to real-world problems in the healthcare sector.
+I'm an AI engineer/researcher based in Silicon Valley. I have worked at **Apple** since June 2025.
 
 
 ## Professional Background
@@ -19,18 +16,24 @@ My journey in AI began with a strong foundation in **Applied Mathematics** and *
 
 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
   <div>
+    <h3 style="margin: 0;">Apple</h3>
+    <p style="margin: 0; font-style: italic;">Machine Learning Engineer - Video Engineering</p>
+    <p style="margin: 0; color: gray;">June 2025 - Present</p>
+  </div>
+</div>
+
+Machine Learning Engineer in Apple’s Video Engineering organization.
+
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
+  <div>
     <h3 style="margin: 0;">Whiterabbit.ai</h3>
     <p style="margin: 0; font-style: italic;">Research Scientist - AI</p>
-    <p style="margin: 0; color: gray;">Sep 2021 - Current</p>
+    <p style="margin: 0; color: gray;">Sep 2021 - June 2025</p>
   </div>
   <img src="/assets/images/whiterabbit.jpg" alt="Whiterabbit.ai" style="width: 200px; height: auto;">
 </div>
 
-I joined Whiterabbit.ai right after my studies, following a summer internship in which I worked extensively on WRClear, a software as a medical device. WRClear is intended for the autonomous identification of non-suspicious exams while offering assistive outputs to help interpreting physicians detect cancer in cases where the presence of breast cancer cannot be ruled out.
-
-WRClear is the first autonomous medical device of its kind. This was a major lift for the research team. As part of it, I designed, trained, and evaluated multiple deep neural networks (convolutional neural networks, transformers, gradient-boosted trees, etc.) for a wide range of tasks. Additionally, I handled the design of statistical studies to demonstrate the benefits of our device to the FDA. This effort pioneers **autonomous cancer screening technology** while simultaneously improving patient outcomes and reducing the radiologist shortage.
-
-WRClear allows a new paradigm in screening mammography. WRClear is a software as a medical device (SaMD) that integrates artificial intelligence into the mammography screening workflow. Through a combination of assistive and autonomous capabilities, WRClear is designed to automate routine tasks and improve screening accuracy, and may permit radiologists to spend more time on the cases that truly require their attention and expertise. WRClear is designed to improve diagnostic quality by reducing both false negatives and false positives, such as non-cancer callbacks and benign biopsies. By automating a significant portion of non-suspicious exams, WRClear alleviates the workload for radiologists.
+Worked on WRClear, a software as a medical device combining autonomous and assistive AI for screening mammography. I developed and evaluated machine-learning models across multiple clinical tasks, and led the statistical study design used to demonstrate the device’s benefits to the FDA.
 
 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
   <div>
@@ -56,7 +59,7 @@ I've had the privilege of working at several companies, but McKinsey stood out t
   <img src="/assets/images/polytechnique.jpg" alt="École Polytechnique" style="width: 200px; height: auto;">
 </div>
 
-I was admitted to **École Polytechnique** in 2017 through the highly competitive **PC (Physics & Chemistry)** exam, where I ranked **44th nationwide**. During my time there, I specialized in **Applied Mathematics** and **Artificial Intelligence**, building a strong foundation in these fields while exploring innovative technologies.
+**Promotion 2017. Master’s in Applied Mathematics.**
 
 <!-- Add extra space here -->
 <div style="margin-bottom: 60px;"></div>
@@ -70,30 +73,17 @@ I was admitted to **École Polytechnique** in 2017 through the highly competitiv
   <img src="/assets/images/stanford-university-logo.png" alt="Stanford University" style="width: 200px; height: auto;">
 </div>
 
-I completed my **Master’s in Statistics** at **Stanford University**, following the **Data Science track**. My studies bridged theoretical expertise from Polytechnique with real-world applications. I worked on impactful projects such as:
+**Promotion of 2022 Master’s in Statistics** at **Stanford University**, following the **Data Science track**.
 
 - **Cancer Detection in Children** using machine learning.
-- **Unbiasing Computer Vision Datasets**.
 - **Graph Molecule Classifications** through Graph Convolutional Networks (GCNs).
 - **Natural Language Processing (NLP)** for question-answering systems.
 - And many more cutting-edge AI-driven initiatives.
 
-## Skills, Expertise & Technologies
+## Areas of expertise
 ---
 
-- Programming Languages: Python (fluent), R.
-- Machine Learning & AI: PyTorch, TensorFlow.
-- AI utilities: Bash scripting; GPU profiling, monitoring, and benchmarking; process management.
-- Mathematics: Strong general knowledge across all domains of mathematics.
-- Computer Vision: Vision Transformers (ViT, PvT, Hiera), CNNs (ConvNeXt, InceptionNeXt).
-- Graph Convolutional Networks (GCNs).
-- Data Visualization: Bokeh, matplotlib.
-- Statistical Analysis: Hypothesis testing, regression analysis, and predictive modeling.
-- Version Control: Proficient in using Git for source code management and collaboration.
-- Cloud Platforms: High-performance computing clusters, Docker containers.
-- Operating systems: Linux, macOS, Windows.
-- Languages: English 🇺🇸 and French 🇫🇷.
-
+Machine learning, computer vision, statistical modeling, and high-performance AI systems.
 
 ## Personal Interests
 ---
@@ -110,10 +100,9 @@ I completed my **Master’s in Statistics** at **Stanford University**, followin
 </div>
 <p>In addition to Judo, I am passionate about <strong>Brazilian Jiu-Jitsu (BJJ)</strong>, where I proudly hold a <strong>blue belt</strong>. BJJ has further refined my grappling skills and emphasized the significance of strategy and adaptability in martial arts. My journey in BJJ remains an exciting challenge, constantly pushing me to enhance my physical and mental resilience.</p>
 
-## Values & Motivation
+## Principles
 ---
 
-Do one thing and do it well.
+**Do one thing and do it well.**
 
-It is the motto I try to live by. In the recent development of AI, I've seen more and more complex forms of intelligence emerging. And yet most of them can't seem to do anything useful. I believe that this contradiction lies in the race to AGI.
-I think the most useful tools will be the specific ones (GitHub Copilot, for example) that focus on doing one thing and doing it well.
+I value focused tools, clear constraints, and measurable usefulness. I’m most interested in systems that solve specific problems reliably.
