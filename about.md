@@ -60,7 +60,7 @@ I've had the privilege of working at several companies, but McKinsey stood out t
   <img src="/assets/images/polytechnique.jpg" alt="École Polytechnique" style="width: 200px; height: auto;">
 </div>
 
-**Promotion 2017. Master’s in Applied Mathematics.**
+** Master’s in Applied Mathematics.**
 
 <!-- Add extra space here -->
 <div style="margin-bottom: 60px;"></div>
@@ -74,7 +74,7 @@ I've had the privilege of working at several companies, but McKinsey stood out t
   <img src="/assets/images/stanford-university-logo.png" alt="Stanford University" style="width: 200px; height: auto;">
 </div>
 
-**Promotion of 2022 Master’s in Statistics** at **Stanford University**, following the **Data Science track**.
+**Master’s in Statistics** in the **Data Science track**.
 
 - **Cancer Detection in Children** using machine learning.
 - **Graph Molecule Classifications** through Graph Convolutional Networks (GCNs).
