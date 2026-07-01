@@ -20,6 +20,7 @@ I'm an AI engineer/researcher based in Silicon Valley. I have worked at **Apple*
     <p style="margin: 0; font-style: italic;">Machine Learning Engineer - Video Engineering</p>
     <p style="margin: 0; color: gray;">June 2025 - Present</p>
   </div>
+  <img src="/assets/images/Apple-Logo.png" alt="Apple" style="width: 200px; height: auto;">
 </div>
 
 Machine Learning Engineer in Apple’s Video Engineering organization.
