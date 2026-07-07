@@ -60,7 +60,7 @@ I've had the privilege of working at several companies, but McKinsey stood out t
   <img src="/assets/images/polytechnique.jpg" alt="École Polytechnique" style="width: 200px; height: auto;">
 </div>
 
-** Master’s in Applied Mathematics.**
+**Master’s in Applied Mathematics.**
 
 <!-- Add extra space here -->
 <div style="margin-bottom: 60px;"></div>
