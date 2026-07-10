@@ -76,16 +76,6 @@ I've had the privilege of working at several companies, but McKinsey stood out t
 
 **Master’s in Statistics** in the **Data Science track**.
 
-- **Cancer Detection in Children** using machine learning.
-- **Graph Molecule Classifications** through Graph Convolutional Networks (GCNs).
-- **Natural Language Processing (NLP)** for question-answering systems.
-- And many more cutting-edge AI-driven initiatives.
-
-## Areas of expertise
----
-
-Machine learning, computer vision, statistical modeling, and high-performance AI systems.
-
 ## Personal Interests
 ---
 
@@ -104,6 +94,14 @@ Machine learning, computer vision, statistical modeling, and high-performance AI
 ## Principles
 ---
 
+**Consistency beats intensity.**
+
+Rome wasn't built in a single night. Consistent and stellar contributions over time create real value.
+
 **Do one thing and do it well.**
 
 I value focused tools, clear constraints, and measurable usefulness. I’m most interested in systems that solve specific problems reliably.
+
+**The last 20% is where the work starts.**
+
+When something feels 80% done, I assume the real opportunity is still ahead. Clarity, robustness, and polish compound late, and most things can be made much better than they first appear.
