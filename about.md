@@ -54,13 +54,12 @@ I've had the privilege of working at several companies, but McKinsey stood out t
 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
   <div>
     <h3 style="margin: 0;">École Polytechnique</h3>
-    <p style="margin: 0; font-style: italic;">Engineering Diploma, Master of Science – Grande École d'ingénieur français</p>
+    <p style="margin: 0; font-style: italic;">Engineering Diploma, Master of Science – Applied Mathematics</p>
     <p style="margin: 0; color: gray;">2017 – 2020</p>
   </div>
   <img src="/assets/images/polytechnique.jpg" alt="École Polytechnique" style="width: 200px; height: auto;">
 </div>
 
-**Master’s in Applied Mathematics.**
 
 <!-- Add extra space here -->
 <div style="margin-bottom: 60px;"></div>
@@ -73,23 +72,6 @@ I've had the privilege of working at several companies, but McKinsey stood out t
   </div>
   <img src="/assets/images/stanford-university-logo.png" alt="Stanford University" style="width: 200px; height: auto;">
 </div>
-
-**Master’s in Statistics** in the **Data Science track**.
-
-## Personal Interests
----
-
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="/assets/icons/judo_icon.png" alt="Judo Icon" style="width: 40px; height: auto; margin-right: 10px;">
-  <h3 style="margin: 0;">Judo</h3>
-</div>
-<p>Having practiced <strong>Judo</strong> during my teenage years, I have developed a solid foundation in this traditional martial art. Currently, I hold a <strong>brown belt</strong>, reflecting my dedication and skill level. Through Judo, I've gained valuable insights into discipline, respect, and the importance of technique over brute strength, shaping my approach to challenges in life.</p>
-
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="/assets/icons/bjj_icon.jpg" alt="Brazilian Jiu-Jitsu Icon" style="width: 40px; height: auto; margin-right: 10px;">
-  <h3 style="margin: 0;">Brazilian Jiu-Jitsu</h3>
-</div>
-<p>In addition to Judo, I am passionate about <strong>Brazilian Jiu-Jitsu (BJJ)</strong>, where I proudly hold a <strong>blue belt</strong>. BJJ has further refined my grappling skills and emphasized the significance of strategy and adaptability in martial arts. My journey in BJJ remains an exciting challenge, constantly pushing me to enhance my physical and mental resilience.</p>
 
 ## Principles
 ---
@@ -105,3 +87,19 @@ I value focused tools, clear constraints, and measurable usefulness. I’m most 
 **The last 20% is where the work starts.**
 
 When something feels 80% done, I assume the real opportunity is still ahead. Clarity, robustness, and polish compound late, and most things can be made much better than they first appear.
+
+
+## Personal Interests
+---
+
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="/assets/icons/judo_icon.png" alt="Judo Icon" style="width: 40px; height: auto; margin-right: 10px;">
+  <h3 style="margin: 0;">Judo</h3>
+</div>
+<p>Having practiced <strong>Judo</strong> during my teenage years, I have developed a solid foundation in this traditional martial art. Currently, I hold a <strong>brown belt</strong>, reflecting my dedication and skill level. Through Judo, I've gained valuable insights into discipline, respect, and the importance of technique over brute strength, shaping my approach to challenges in life.</p>
+
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="/assets/icons/bjj_icon.jpg" alt="Brazilian Jiu-Jitsu Icon" style="width: 40px; height: auto; margin-right: 10px;">
+  <h3 style="margin: 0;">Brazilian Jiu-Jitsu</h3>
+</div>
+<p>In addition to Judo, I am passionate about <strong>Brazilian Jiu-Jitsu (BJJ)</strong>, where I proudly hold a <strong>blue belt</strong>. BJJ has further refined my grappling skills and emphasized the significance of strategy and adaptability in martial arts. My journey in BJJ remains an exciting challenge, constantly pushing me to enhance my physical and mental resilience.</p>
