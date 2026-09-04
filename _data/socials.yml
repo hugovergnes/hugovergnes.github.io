@@ -1,0 +1,8 @@
+# Social links shown on the about page and in the footer.
+# Displayed in the order defined here.
+cv_pdf: /assets/pdf/resume.pdf
+email: hugo.vergnes@gmail.com
+github_username: hugovergnes
+linkedin_username: hugo-vergnes-03a016162
+kaggle_id: hugovergnesx
+rss_icon: true
