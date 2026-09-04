@@ -34,7 +34,7 @@ leading statistical studies designed to demonstrate the device's benefits to the
 FDA.
 
 In the evenings I pretrain language models. The most recent one is
-[little-lm](/projects/): 3.8B parameters, trained from random weights to 0.384 CORE for
+[little-lm](/projects/little-lm/): 3.8B parameters, trained from random weights to 0.384 CORE for
 $998 on rented GPUs. I wanted to watch language emerge from noise myself, and to learn
 the parts you only learn by starting from scratch.
 
