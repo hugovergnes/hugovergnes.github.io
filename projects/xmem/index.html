@@ -1,0 +1,243 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> XMem under stress | Hugo Vergnes </title> <meta name="author" content="Hugo Vergnes"> <meta name="description" content="Probing a video object segmentation model with synthetic benchmarks"> <meta name="keywords" content="machine learning, language models, LLM pretraining, computer vision, video understanding, deep learning"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A7%A0&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://hugovergnes.github.io/projects/xmem/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Hugo Vergnes </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">XMem under stress</h1> <p class="post-description">Probing a video object segmentation model with synthetic benchmarks</p> </header> <article> <p><a href="https://github.com/hkchengrex/XMem" rel="external nofollow noopener" target="_blank">XMem</a> is a video object segmentation model built around an explicit memory system. Benchmark numbers tell you it works; they don’t tell you <em>when</em> it stops working.</p> <p>So I built synthetic sequences with controlled failure modes — occlusion, appearance change, fast motion — and watched the memory behave under each one. Synthetic data means the ground truth is exact and the difficulty is a dial, not a property of whatever footage happened to be in the dataset.</p> <div class="row justify-content-sm-center"> <div class="col-sm-10 mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/xmem_occlusion_contact_sheet-480.webp 480w,/assets/img/xmem_occlusion_contact_sheet-800.webp 800w,/assets/img/xmem_occlusion_contact_sheet-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/xmem_occlusion_contact_sheet.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Occlusion sequence contact sheet" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> </div> <div class="caption"> An occlusion sequence, frame by frame. </div> <p><a href="/xmem/">Read the full write-up</a>.</p> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Hugo Vergnes. Built with <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="external nofollow noopener">al-folio</a> theme. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "about",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-projects",
+          title: "projects",
+          description: "Things I have built, and what they turned out to teach me.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Experience, education and selected projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "post-training-a-3-8b-llm-to-0-384-core-for-998",
+        
+          title: "Training a 3.8B LLM to 0.384 CORE for $998",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/little-lm-3-8b/";
+          
+        },
+      },{id: "post-understanding-xmem-through-synthetic-benchmarks",
+        
+          title: "Understanding XMem Through Synthetic Benchmarks",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/xmem/";
+          
+        },
+      },{id: "post-state-of-the-art-in-computer-vision-vit-cnns-and-beyond",
+        
+          title: "State-of-the-Art in Computer Vision: ViT, CNNs and Beyond",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/beyond/";
+          
+        },
+      },{id: "post-a-comparative-study-of-ai-and-expert-radiologist-performance-for-technical-recall-assessment-in-screening-mammography",
+        
+          title: "A comparative study of AI and expert radiologist performance for technical recall assessment...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/rsna/";
+          
+        },
+      },{id: "post-hierarchical-vision-transformers-as-masked-autoencoders",
+        
+          title: "Hierarchical Vision Transformers as Masked Autoencoders",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/Hiera/";
+          
+        },
+      },{id: "post-a-heuristic-algorithm-to-solve-sudoku-puzzles",
+        
+          title: "A heuristic algorithm to solve Sudoku puzzles",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/sudokus/";
+          
+        },
+      },{id: "post-ultimate-fighting-championship-in-a-graph",
+        
+          title: "Ultimate Fighting Championship in a graph",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/UFC-Dataset-Exploration/";
+          
+        },
+      },{id: "post-path-integral-based-convolution-graph-neural-network-to-solve-the-molhiv-dataset",
+        
+          title: "Path Integral Based Convolution Graph Neural Network to solve the molhiv dataset",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/GCN-for-drugs/";
+          
+        },
+      },{id: "news-presented-our-screening-mammography-technical-recall-study-at-rsna-2024",
+          title: 'Presented our screening-mammography technical-recall study at RSNA 2024.',
+          description: "",
+          section: "News",},{id: "news-joined-apple-as-a-machine-learning-engineer-in-video-engineering",
+          title: 'Joined Apple as a Machine Learning Engineer in Video Engineering.',
+          description: "",
+          section: "News",},{id: "news-wrote-up-little-lm-a-3-8b-model-pretrained-from-scratch-to-0-384-core-for-998",
+          title: 'Wrote up little-lm — a 3.8B model pretrained from scratch to 0.384 CORE...',
+          description: "",
+          section: "News",},{id: "projects-little-lm",
+          title: 'little-lm',
+          description: "A 3.8B language model pretrained from scratch to 0.384 CORE for $998",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/little-lm/";
+            },},{id: "projects-path-integral-graph-convolutions",
+          title: 'Path-integral graph convolutions',
+          description: "Borrowing from physics to aggregate over molecular graphs",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/path-integral-gnn/";
+            },},{id: "projects-ai-vs-radiologists-on-technical-recall",
+          title: 'AI vs. radiologists on technical recall',
+          description: "A comparative study in screening mammography, presented at RSNA 2024",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/rsna/";
+            },},{id: "projects-solving-sudoku-like-a-human",
+          title: 'Solving Sudoku like a human',
+          description: "A heuristic solver that never backtracks",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sudoku/";
+            },},{id: "projects-the-ufc-as-a-graph",
+          title: 'The UFC as a graph',
+          description: "What the fight record looks like when every bout is an edge",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ufc-graph/";
+            },},{id: "projects-xmem-under-stress",
+          title: 'XMem under stress',
+          description: "Probing a video object segmentation model with synthetic benchmarks",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/xmem/";
+            },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/resume.pdf", "_blank");
+        },
+      },{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%68%75%67%6F.%76%65%72%67%6E%65%73@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/hugovergnes", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/hugo-vergnes-03a016162", "_blank");
+        },
+      },{
+        id: 'social-kaggle',
+        title: 'Kaggle',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.kaggle.com/hugovergnesx", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>

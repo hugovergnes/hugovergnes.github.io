@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://hugovergnes.github.io/sitemap.xml
