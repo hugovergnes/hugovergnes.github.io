@@ -1,6 +1,7 @@
 ---
 title:  "Path Integral Based Convolution Graph Neural Network to solve the molhiv dataset"
 layout: post
+categories: AI
 ---
 
 Graph Neural Networks (GNNs) have shown significant promise in tackling molecular data problems, especially for tasks like drug discovery. In my latest project, I implemented a Path Integral-Based Convolutional Kernel to solve the molhiv dataset on the Open Graph Benchmark (OGB). This approach borrows concepts from physics, particularly path integrals, to improve the way GNNs aggregate information across molecular graphs, offering an innovative method to process edge and node relationships.
