@@ -63,32 +63,3 @@ cv:
         studyType: Engineering Diploma, Master of Science
         start_date: 2017
         end_date: 2020
-
-    Projects:
-      - name: little-lm
-        summary: >
-          A config-driven framework for pretraining small decoder-only language models,
-          and a 3.8B model trained from scratch to 0.384 CORE on 65B tokens for $998.
-        highlights:
-          - Llama-style architecture with GQA, relu² MLPs, QK-norm and ResFormer value embeddings.
-          - Muon for matrix parameters, FP8 training, trapezoidal LR schedule.
-          - Beats GPT-2 1.5B (0.2565 CORE) by a wide margin at roughly $1,000 of rented compute.
-
-    Skills:
-      - name: Training
-        keywords:
-          - LLM pretraining
-          - distributed training
-          - mixed precision / FP8
-          - throughput optimization
-      - name: Domains
-        keywords:
-          - language models
-          - video understanding
-          - medical imaging
-          - graph neural networks
-      - name: Tools
-        keywords:
-          - PyTorch
-          - CUDA
-          - Python
