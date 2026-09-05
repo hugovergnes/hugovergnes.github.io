@@ -5,12 +5,24 @@ Excluded from the Jekyll build, so this file is not published.
 
 ## Housekeeping (do first, cheap)
 
-- [ ] **`git pull` on local `main`** in `/home/hugo/hugovergnes.github.io` — it is
-      8 commits behind since `main` was fast-forwarded from the migration branch.
-      Doing other work there before pulling will cause confusing conflicts.
-- [ ] **Remove the worktree** at `.claude/worktrees/al-folio-migration` once
-      finished with it (`git worktree remove`), and delete the now-merged
-      `worktree-al-folio-migration` branch locally and on origin.
+- [x] ~~`git pull` on local `main`~~ — done 2026-09-05; the checkout is current.
+- [ ] **Remove the worktree and its branch.** Verified ready 2026-09-05:
+      `origin/main` and `origin/worktree-al-folio-migration` are both `f7a5664`,
+      `git log origin/main..origin/worktree-al-folio-migration` is empty, and the
+      worktree has no uncommitted changes. Nothing is lost by deleting it.
+
+      Order matters — the branch is checked out by the worktree, so git refuses to
+      delete it until the worktree is gone:
+
+      ```
+      git worktree remove .claude/worktrees/al-folio-migration
+      git branch -d worktree-al-folio-migration
+      git push origin --delete worktree-al-folio-migration
+      ```
+
+      Caveat: this deletes the directory, so any editor tab open on a file under
+      `.claude/worktrees/al-folio-migration/` goes stale. The same files live in
+      the main checkout.
 
 ## Review
 
