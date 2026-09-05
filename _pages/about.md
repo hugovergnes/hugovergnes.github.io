@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Machine Learning Engineer at <a href='https://www.apple.com'>Apple</a>, Video Engineering. Silicon Valley.
+subtitle: Machine Learning Engineer at <a href='https://www.apple.com'>Apple</a>, Video Engineering.
 
 profile:
   align: right
