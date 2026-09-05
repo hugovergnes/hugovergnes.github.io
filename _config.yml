@@ -136,7 +136,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Writing
+blog_name: Write-ups
 blog_description: notes on training, evaluating and debugging models
 permalink: /:title/ # matches the pre-migration URLs; do not change
 lsi: false # produce an index for related posts
@@ -340,7 +340,7 @@ jekyll-archives:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: [] # posts do not use tags; leave empty rather than linking to pages that do not exist
-display_categories: ["AI", "algorithms", "media"]
+display_categories: ["AI", "algorithms"]
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

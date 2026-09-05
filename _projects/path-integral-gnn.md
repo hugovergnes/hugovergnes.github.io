@@ -4,7 +4,7 @@ title: Path-integral graph convolutions
 description: Borrowing from physics to aggregate over molecular graphs
 img: assets/img/fig_path_integral_gnn.svg
 importance: 5
-category: side projects
+category: curiosities
 ---
 
 Most graph neural networks aggregate over a node's immediate neighbours. A

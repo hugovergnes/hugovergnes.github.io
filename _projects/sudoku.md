@@ -4,7 +4,7 @@ title: Solving Sudoku like a human
 description: A heuristic solver that never backtracks
 img: assets/img/fig_sudoku_candidates.svg
 importance: 6
-category: side projects
+category: curiosities
 ---
 
 The standard computer-science answer to Sudoku is backtracking: pick a branch, and if

@@ -5,7 +5,7 @@ permalink: /projects/
 description: Things I have built, and what they turned out to teach me.
 nav: true
 nav_order: 1
-display_categories: ["language models", "vision & video", "side projects"]
+display_categories: ["language models", "vision & video", "curiosities"]
 horizontal: false
 ---
 

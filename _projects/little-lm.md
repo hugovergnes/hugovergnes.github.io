@@ -7,7 +7,7 @@ importance: 1
 category: language models
 ---
 
-A config-driven framework for pretraining small decoder-only language models, and
+A config-driven framework for pretraining decoder-only language models, and
 the 3.8B-parameter model I trained with it: **0.384 CORE on 65B tokens, in 43 hours,
 for $998** on rented B200s. That beats GPT-2 1.5B (0.2565) by a wide margin and lands
 ahead of nanochat's ~$1000 configuration.

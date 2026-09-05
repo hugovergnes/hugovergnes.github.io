@@ -2,7 +2,7 @@
 title:  "Ultimate Fighting Championship in a graph"
 mathjax: true
 layout: post
-categories: media
+categories: curiosities
 ---
 
 <figure>

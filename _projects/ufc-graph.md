@@ -4,7 +4,7 @@ title: The UFC as a graph
 description: What the fight record looks like when every bout is an edge
 img: assets/img/ufc_graph.png
 importance: 4
-category: side projects
+category: curiosities
 ---
 
 Every UFC bout is an edge between two fighters. Lay the whole record out that way and
