@@ -34,9 +34,8 @@ Excluded from the Jekyll build, so this file is not published.
       Both are valid SVG using the same palette and dark-mode block as
       `fig_core_vs_loss.svg`, but the layout is unverified.
 
-- [ ] **Profile photo** (`_pages/about.md`, `profile.image`) is
-      `RSNA_presentation_2024.jpg` — a conference-podium shot doing headshot duty,
-      because it is the only photo of Hugo in the repo.
+- [x] ~~Profile photo~~ — `RSNA_presentation_2024.jpg` is fine as-is.
+      Decided 2026-09-05; do not raise again.
 
 ## Polish
 
