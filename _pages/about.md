@@ -39,4 +39,4 @@ $998 on rented GPUs. I wanted to watch language emerge from noise myself, and to
 the parts you only learn by starting from scratch.
 
 I studied applied mathematics at **École Polytechnique** and statistics at
-**Stanford**. Outside work I train Judo (brown belt) and Brazilian Jiu-Jitsu (blue belt).
+**Stanford**.
